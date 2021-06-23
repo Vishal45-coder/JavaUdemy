@@ -11,7 +11,7 @@ public class methods {
 		if(true)
 		{
 			System.out.println("This method has been called");
-			System.out.println("This is a static method");
+			System.out.println("This is  static method");
 		}
 	}
 }
