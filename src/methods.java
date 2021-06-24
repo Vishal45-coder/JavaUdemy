@@ -2,7 +2,7 @@
 public class methods {
 	public static void main(String[] args) 
 	{
-		Statement();
+		Statement(); //This will run the method Statement
 		
 	}
 	
