@@ -24,9 +24,9 @@ public class Methods_c1 {
     public static int calculatescore(int score){
         if (score>=1000)
             return 1;
-        else if(score>=500 && score<1000)
+        else if(score>=500) //We can use this but it takes more time checks one more extra condition (score>=500 && score<1000)
             return 2;
-        else if(score>=100 && score<500)
+        else if(score>=100)  //We can use this but it takes more time checks one more extra condition (score>=100 && score<500)
             return 3;
         else
             return 4;        
