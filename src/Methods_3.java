@@ -11,7 +11,7 @@ public class Methods_3 {
 	{
 		double add=num1+num2;
 		double sub=num1-num2;
-		double mul=num1*num2;
+		double mul=num1*num2; 
 		double div=num1/num2;
 
 		double[] values=new double[4];
