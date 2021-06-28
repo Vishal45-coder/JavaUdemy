@@ -5,7 +5,7 @@ package Coding_Exersices;
 public class Sec_min_2 {
     public static void main(String[] args){
 
-        System.out.println(getDuration(24563)); //This will automatically print hour minutes and seconds if lyou only know total no.of seconds
+        System.out.println(getDuration(9)); //This will automatically print hour minutes and seconds if lyou only know total no.of seconds
     
         System.out.println(getDuration(409,23)); //This will automatically print hour minutes and seconds if you only know total no.of minutes and seconds
     
