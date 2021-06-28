@@ -4,11 +4,20 @@ package Coding_Exersices;
 
 public class Sec_min_2 {
     public static void main(String[] args){
-        System.out.println(getDuration(24563));
-        System.out.println(getDuration(409,23));
+
+        System.out.println(getDuration(24563)); //This will automatically print hour minutes and seconds if lyou only know total no.of seconds
+    
+        System.out.println(getDuration(409,23)); //This will automatically print hour minutes and seconds if you only know total no.of minutes and seconds
+    
     }
 
-    public static String getDuration(long minutes,long seconds)
+    /**
+     * This will return hour minutes and seconds with these parameters
+     * @param minutes total no of minutes
+     * @param seconds total no of seconds
+     * @return It will return hour minutes and seconds in the String format if the conditions were satisfied else Invalid value
+     */
+    public static String getDuration(long minutes,long seconds) 
     {
         long min;
         if(minutes>=0 && (seconds>=0 && seconds<=59)){
@@ -21,6 +30,11 @@ public class Sec_min_2 {
         }
     }
 
+    /**
+     * This will return hour minutes and seconds with the only parameter
+     * @param seconds Total no of seconds
+     * @return It will return hour minutes and seconds in the String format if the conditions were satisfied else Invalid value
+     */
     public static String getDuration(long seconds)
     {
         long min,sec;
@@ -30,7 +44,7 @@ public class Sec_min_2 {
         else{
             min=seconds/60;
             sec=seconds%60;
-            return getDuration(min, sec);
+            return getDuration(min, sec); //This will go to the 1st method and return hour minutes and seconds in String format
         }
 
     }
