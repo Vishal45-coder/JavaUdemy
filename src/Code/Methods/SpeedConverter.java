@@ -1,4 +1,4 @@
-package Java.Methods;
+package Code.Methods;
 
 public class SpeedConverter {
     // write your code here

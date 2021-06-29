@@ -1,3 +1,4 @@
+package Code.Switch;
 public class Switch_2 {
     public static void main(String[] args){
         char a='E';

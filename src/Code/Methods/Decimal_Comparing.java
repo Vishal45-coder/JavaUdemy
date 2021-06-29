@@ -1,4 +1,4 @@
-package Java.Methods;
+package Code.Methods;
 
 /*
 Write a method areEqualByThreeDecimalPlaces with two parameters of type double.

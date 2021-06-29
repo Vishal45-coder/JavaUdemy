@@ -1,4 +1,4 @@
-package Java;
+package Code;
 
 public class Int_to_string {
     public static void main(String[] args){

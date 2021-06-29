@@ -1,4 +1,4 @@
-package Java.Methods;
+package Code.Methods;
 
 /*
 Write a method isLeapYear with a parameter of type int named year.

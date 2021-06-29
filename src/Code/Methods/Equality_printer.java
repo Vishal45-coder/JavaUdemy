@@ -1,4 +1,4 @@
-package Java.Methods;
+package Code.Methods;
 
 /*
 Write a method printEqual with 3 parameters of type int. The method should not return anything (void).

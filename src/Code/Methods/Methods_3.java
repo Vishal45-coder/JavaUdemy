@@ -1,3 +1,4 @@
+package Code.Methods;
 public class Methods_3 {
     public static void main(String[] args){
 

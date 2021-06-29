@@ -1,4 +1,4 @@
-package Java.Methods;
+package Code.Methods;
 
 /*
 Write a method printYearsAndDays with parameter of type long named minutes.
