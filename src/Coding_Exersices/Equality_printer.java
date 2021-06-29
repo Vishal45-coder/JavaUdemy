@@ -47,13 +47,13 @@ public class Equality_printer {
         {
             System.out.println("All numbers are equal");
         }
-        else if(num1!=num2 && num2!=num3 && num3!=num1)
+        else if(num1!=num2 && num2!=num3 && num3!=num1) //If anyone of the numbers are same it will return false
         {
             System.out.println("All numbers are different");
         }
         else
         {
-           System.out.println("Neither all are equal or different");
+           System.out.println("Neither all are equal or different"); //This statement will be executed since not every number is different
         }
     }
   }
