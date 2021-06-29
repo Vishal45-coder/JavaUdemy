@@ -1,47 +1,39 @@
 package Coding_Exersices;
 
 /*
-Write a method printYearsAndDays with parameter of type long named minutes.
+Write a method named area with one double parameter named radius.
 
-The method should not return anything (void) and it needs to calculate the years and days from the minutes parameter.
+The method needs to return a double value that represents the area of a circle.
 
-If the parameter is less than 0, print text "Invalid Value".
+If the parameter radius is negative then return -1.0 to represent an invalid value.
 
-Otherwise, if the parameter is valid then it needs to print a message in the format "XX min = YY y and ZZ d".
+Write another overloaded method with 2 parameters x and y (both doubles), where x and y represent the sides of a rectangle.
 
-XX represents the original value minutes.
-YY represents the calculated years.
-ZZ represents the calculated days.
+The method needs to return an area of a rectangle.
+
+If either or both parameters is/are a negative return -1.0 to indicate an invalid value.
+
+For formulas and PI value please check the tips below.
+
+Examples of input/output:
+
+* area(5.0); should return 78.53975
+
+* area(-1);  should return -1 since the parameter is negative
+
+* area(5.0, 4.0); should return 20.0 (5 * 4 = 20)
+
+* area(-1.0, 4.0);  should return -1 since first the parameter is negative
 
 
-EXAMPLES OF INPUT/OUTPUT:
 
-* printYearsAndDays(525600);  → should print "525600 min = 1 y and 0 d"
+TIP: The formula for calculating the area of a rectangle is x * y.
 
-* printYearsAndDays(1051200); → should print "1051200 min = 2 y and 0 d"
+TIP: The formula for calculating a circle area is radius * radius * PI.
 
-* printYearsAndDays(561600);  → should print "561600 min = 1 y and 25 d"
+TIP: For PI use a constant from Math class e.g. Math.PI
 
-
-TIPS:
-
-* Be extra careful about spaces in the printed message.
-
-* Use the remainder operator
-
-* 1 hour = 60 minutes
-
-* 1 day = 24 hours
-
-* 1 year = 365 days
-
-NOTES
-
-* The printYearsAndDays method needs to be defined as public static like we have been doing so far in the course.
-
-* Do not add main method to solution code.
-
-* The solution will not be accepted if there are extra spaces
+NOTE: All methods need to be defined as public static like we have been doing so far in the course.
 **/
 
 public class Area_Caluclator {
