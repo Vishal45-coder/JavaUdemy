@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Java;
 import java.util.Scanner;
 
 public class Loops_2{

@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Java;
 
 public class Int_to_string {
     public static void main(String[] args){

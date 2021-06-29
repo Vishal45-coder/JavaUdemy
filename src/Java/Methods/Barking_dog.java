@@ -1,4 +1,4 @@
-package Coding_Exersices.Methods;
+package Java.Methods;
 
 /*
 Question 

@@ -1,4 +1,4 @@
-package Coding_Exersices.Overloading;
+package Java.Overloading;
 
 //This is the challenge without static variable;
 

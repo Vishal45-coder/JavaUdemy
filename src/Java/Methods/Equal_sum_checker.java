@@ -1,4 +1,4 @@
-package Coding_Exersices.Methods;
+package Java.Methods;
 
 /*
 Write a method hasEqualSum with 3 parameters of type int.

@@ -1,4 +1,4 @@
-package Coding_Exersices.Methods;
+package Java.Methods;
 
 public class SpeedConverter {
     // write your code here
