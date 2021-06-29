@@ -30,6 +30,12 @@ public class Playing_cat {
     }
     public static boolean isCatPlaying(boolean summer,int temperature)
     {
+
+        //Improvised code
+        return summer && (temperature<46 && temperature>24) || (temperature<36 && temperature>24);
+
+        /*
+        // Long code
         if(summer)
         {
             if(temperature<46 && temperature>24){
@@ -43,5 +49,6 @@ public class Playing_cat {
             }
             return false;
         }
+        **/
     }
 }
