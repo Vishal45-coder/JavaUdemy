@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Coding_Exersices.Methods;
 
 public class SpeedConverter {
     // write your code here

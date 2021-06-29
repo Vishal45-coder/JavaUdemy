@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Coding_Exersices.Methods;
 
 /*
 Question 

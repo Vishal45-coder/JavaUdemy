@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Coding_Exersices.Methods;
 
 /*
 Write a method isLeapYear with a parameter of type int named year.

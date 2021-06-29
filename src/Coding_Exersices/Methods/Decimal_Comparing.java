@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Coding_Exersices.Methods;
 
 /*
 Write a method areEqualByThreeDecimalPlaces with two parameters of type double.

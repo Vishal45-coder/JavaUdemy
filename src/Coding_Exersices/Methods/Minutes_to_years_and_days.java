@@ -1,4 +1,4 @@
-package Coding_Exersices;
+package Coding_Exersices.Methods;
 
 /*
 Write a method printYearsAndDays with parameter of type long named minutes.
