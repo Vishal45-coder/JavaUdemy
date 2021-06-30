@@ -37,6 +37,6 @@ public class Decimal_Comparing {
         if(inum1==inum2){
             return true;
         }
-        return false;
+        return false; 
     }
 }
