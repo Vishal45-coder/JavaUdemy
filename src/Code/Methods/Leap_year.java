@@ -41,7 +41,7 @@ NOTE: The method isLeapYear needs to be defined as public static like we have be
 
 public class Leap_year {
     public static void main(String[] args){
-       System.out.println(isLeapYear(1800));
+       System.out.println(isLeapYear(2000));
     }
      public static boolean isLeapYear(int year){
          if(year>=1 && year<=9999)

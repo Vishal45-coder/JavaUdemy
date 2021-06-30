@@ -5,7 +5,7 @@ import Code.Methods.Leap_year; //Imported for LeapYear method
 public class Month_days_in_leapyear {
     public static void main(String[] args){
 
-        System.out.println(getDaysInMonth(12,10000));
+        System.out.println(getDaysInMonth(12,2001));
      }
 
       public static int getDaysInMonth(int month,int year)
