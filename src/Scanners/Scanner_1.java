@@ -19,6 +19,7 @@ public class Scanner_1 {
         String name=sc.next(); //if you use pnly next it will take next inout after space fro name 1 because you have only used next it will read upto space
         String name1=sc.nextLine(); //it will read remaining value of name input line 
         
+        
         System.out.println("Value od sc.nextLine() is "+name);
         System.out.println("Value by sc.next() is "+name1);
         System.out.println("The value of num you entered is "+num1+" "+num2);
