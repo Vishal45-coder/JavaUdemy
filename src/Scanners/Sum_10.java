@@ -25,8 +25,9 @@ public class Sum_10 {
             else
             {
                 System.out.println("Number #"+i+" is not an int");
-                break;
+                i--; //to enter a correct int value 
             }
+            sc.nextLine(); //It will read remaining line of input
         }
         System.out.println(value);
         sc.close();
