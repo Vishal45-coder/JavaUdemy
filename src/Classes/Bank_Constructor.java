@@ -7,7 +7,7 @@ public class Bank_Constructor {
 
     public Bank_Constructor(){
         this(1500, "Subhash", "AESR908742", "subhash123@gmail.com", "9550557927"); //this calles the another constructor with the same parameters
-        System.out.println("Empty Constructor called");
+        System.out.println("Constructor called");
     }
 
     public Bank_Constructor(int balance,String name,String AccountId,String Email,String Phonenumber){
@@ -50,7 +50,8 @@ public class Bank_Constructor {
         Sbi1.withdrawl(1000);
         Sbi1.deposit(89);
 
-        System.out.println();
+        System.out.println(); //To make a gap betwen different user
+
         Bank_Constructor Sbi2=new Bank_Constructor(1000, "Vishal", "ASERG1009087", "rinkuias1@gmail.com", "9550557927"); //This calls the constructor with same parameters
         Sbi2.printvalues();
         Sbi2.deposit(908);
