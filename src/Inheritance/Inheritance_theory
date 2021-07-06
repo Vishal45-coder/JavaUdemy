@@ -1,0 +1,36 @@
+Inheritance in java is one of OOP principles
+
+There are five types of inheritance:
+i)Single level inheritance
+ii)Multilevel inheritance
+iii)Hierarchy inheritance 
+These 2 cannot be inherited(or executed in java)
+iv)Multiple inheritance
+v)Hybrid inheritance
+
+i)
+Class Subclass extends SuperClass
+
+ii)
+Class Subclass1 extends SuperClass
+Class Subclass2 extends Subclass1
+
+iii)
+Class Subclass1 extends SuperClass
+Class Subclass2 extends SuperClass
+
+Why iv and v cannot be executed in java:
+
+class A{  
+void msg(){System.out.println("Hello");}  
+}  
+class B{  
+void msg(){System.out.println("Welcome");}  
+}  
+class C extends A,B{//suppose if it were  
+   
+ public static void main(String args[]){  
+   C obj=new C();  
+   obj.msg();//Now which msg() method would be invoked?  
+}  
+}  
