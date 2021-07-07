@@ -4,7 +4,7 @@ public class Methods_2 {
 	public static void main(String[] args) 
 
 	{
-		Caluclate(20.909,65.90);  //It runs the Caluclate() method
+		Caluclate(2,2);  //It runs the Caluclate() method
 
 	}
 
