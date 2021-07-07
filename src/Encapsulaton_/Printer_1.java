@@ -37,7 +37,7 @@ public class Printer_1 {
         System.out.println("Toner level after fill up of " + toneramount+" is: " +this.tonerlevel);
     }
 
-    public void printingpages(int printpages){
+    public void printingpages(double printpages){
 
         if(printpages>pages){
             System.out.println("There are no pages");
@@ -45,9 +45,11 @@ public class Printer_1 {
 
         if(duplexprinter){
             this.pages-=printpages/2;
+            this.pagesprinted+=printpages/2;
         }
         else{
             this.pages-=printpages;
+            this.pagesprinted+=printpages;
         }
     }
 
@@ -59,7 +61,8 @@ public class Printer_1 {
         System.out.println("Duplex printer : "+hp.isDuplexprinter());
 
         hp.filluptoner(52);
-        hp.printingpages(53);
+        hp.printingpages(10);
         System.out.println("Total no.of pages : "+hp.getPages());
+        System.out.println("Total no.of pages printed :"+hp.getPagesprinted());
     }
 }
