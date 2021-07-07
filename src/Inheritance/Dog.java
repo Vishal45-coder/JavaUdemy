@@ -26,14 +26,14 @@ public class Dog extends Animal{
     }
 
  
-
+    @Override
     public void eat() {
         System.out.println("Dog.eat() is called");
         super.eat(); //This will first call the eat method in Animal 
     }
 
     
-    
+    @Override
     public void move(int speed) {
         System.out.println(this.name + "is moving");
         super.move(1000); //This will first call the move method in Animal
