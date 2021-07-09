@@ -71,14 +71,30 @@ class All_Movies {
     public static void main(String[] args) {
 
         for (int i=1;i<11;i++){
-            Movie movie=randomMovie();
+
+            /**
+             *This will go to the randommove method and according to random value it will return the object of the class
+             *This is upcasting of the refernce variable of movie(Parent) class with the another(Child) class object
+             */
+            Movie movie=randomMovie(); 
+
+    
             System.out.println ("movie #"+i+" : "+movie.getTitle() +"\n"+"Plot: "+movie.plot()+"\n");
+
+            /**
+             * Here we will get plot method for Forgetable class even though there is no class because it extends movie and it has plots
+             * All the other classes will print the override method
+             */
         }
     }
 
     public static Movie randomMovie() {
         int randomNumber = (int) (Math.random() * 5) + 1;
         System.out.println("random number : " + randomNumber);
+
+        /**
+         * This will return the object for the particular class
+         */
         switch (randomNumber) {
             case 1:
                 return new Jaws();
