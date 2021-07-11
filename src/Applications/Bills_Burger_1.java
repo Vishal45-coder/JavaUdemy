@@ -152,7 +152,13 @@ public class Bills_Burger_1 {
         System.out.println("enter the burger model");
         System.out.println("1.Basic burger\n2.Healthy Hamburger\n3.Deluxe Hamburger");
         int burgervariant=sc.nextInt();
-        sc.nextLine();
+        sc.nextLine();  //To read the input on the upper line
+
+        /**
+         * It goes to the burgermodel method with the parameter of burgervariant
+         * It return the object for the particulasr class
+         * It is done at runtiume
+         */
         Hamburger hamburger=burgermodel(burgervariant);
 
     if(burgervariant ==1 || burgervariant ==2) {
