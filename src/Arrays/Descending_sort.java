@@ -60,7 +60,8 @@ public class Descending_sort {
 
     /**
      * Here we will print the sorted array
-     * @param SortArray We will be passed with the Sortarray  as parameter from above method(SortArrayDescending)
+     * @param SortArray We will be passed with the Sortarray  as parameter from above method(SortArrayDescending)\
+     * Here we have passed the unsorted array instead of copying it again
      */
     public void PrintSortArray(int[] SortArray){
         System.out.println("\nSorted Array");
