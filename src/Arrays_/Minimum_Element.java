@@ -38,7 +38,7 @@ public class Minimum_Element {
     public static void main(String[] args){
 
         Minimum_Element Array_1=new Minimum_Element();
-        Array_1.readInteger();
+        Minimum_Element.readInteger();
         int[] TotalArray=Array_1.readElement(); //It will read the elements in the array and return the array
         System.out.println("Array Values = "+Arrays.toString(TotalArray));
         System.out.println("Minimum Element in the array = "+Array_1.findMin(TotalArray)); //We will pass returned array as parameter
