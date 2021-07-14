@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_;
 
 import java.util.Scanner;
 
@@ -25,17 +25,6 @@ public class Descending_sort {
     }
 
     /**
-     * Here we will print the values of the Unsorted array
-     * @param myint we will get the array passed as parameter which was returned form the above method(IntializingScannerMethod1 )
-    */
-    public void printUnsortArray(int[] myint){
-        System.out.println("\nUnsorted Array");
-        for(int i=0; i<getArraylength(); i++){  //array.length gets the length of the array (sometimes we may get error when there are more or less lements than we specified)
-            System.out.println("Arrayvalues["+i+"] = "+myint[i]); //by this way we can acheive the particular element of array
-        }
-    }
-
-    /**
      * Here we will sort the array values 
      * @param SortArray we will  we will get the array passed as parameter which was returned form the above method(IntializingScannerMethod1 )
     * @return Sorted array
@@ -59,16 +48,15 @@ public class Descending_sort {
     }
 
     /**
-     * Here we will print the sorted array
-     * @param SortArray We will be passed with the Sortarray  as parameter from above method(SortArrayDescending)\
-     * Here we have passed the unsorted array instead of copying it again
+     * Here we will print the values of the Unsorted array
+     * @param myint we will get the array passed as parameter which was returned form the above method(IntializingScannerMethod1 )
      */
-    public void PrintSortArray(int[] SortArray){
-        System.out.println("\nSorted Array");
-        for(int i=0; i<getArraylength(); i++){  
-            System.out.println("Arrayvalues["+i+"] = "+SortArray[i]);
+    public void printArray(int[] myint){
+        for(int i=0; i<getArraylength(); i++){  //array.length gets the length of the array (sometimes we may get error when there are more or less lements than we specified)
+            System.out.println("Arrayvalues["+i+"] = "+myint[i]); //by this way we can acheive the particular element of array
         }
     }
+
     private  static Scanner sc=new Scanner(System.in);
     public static void main(String[] args){
         Descending_sort SortArr=new Descending_sort();
@@ -78,10 +66,12 @@ public class Descending_sort {
         sc.nextLine();
         
         int[] Array1=SortArr.IntializingScannerArrayMethod1();
-        SortArr.printUnsortArray(Array1);
+        System.out.println("\nUnsorted Array");
+        SortArr.printArray(Array1);
 
        int[] SortArray=SortArr.SortArrayDescending(Array1);
-       SortArr.PrintSortArray(SortArray);
+        System.out.println("\nSorted Array");
+       SortArr.printArray(SortArray);
     }
     
 }
