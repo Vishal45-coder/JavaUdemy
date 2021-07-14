@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_;
 
 public class Array_1 {
 
