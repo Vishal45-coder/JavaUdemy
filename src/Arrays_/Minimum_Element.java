@@ -14,7 +14,7 @@ public class Minimum_Element {
         return array_length;
     }
 
-    public int[] readElement(){
+    private int[] readElement(){
         int[] array=new int[array_length]; //Instead of intializing here once again we can get the value from getter method
 
         for(int i=0; i<array_length; i++){
@@ -25,20 +25,15 @@ public class Minimum_Element {
         return array;
     }
 
-    public int findMin(int[] SortArray) {
-        boolean flag=true;
-        while(flag){
-            flag=false;
+    private int findMin(int[] SortArray) {
+        int min=Integer.MAX_VALUE;
             for(int i=0; i<array_length-1; i++){
-                if(SortArray[i]<SortArray[i+1]){
-                    int temp=SortArray[i];
-                    SortArray[i]=SortArray[i+1];
-                    SortArray[i+1]=temp;
-                    flag=true;
-                }
+                int value=SortArray[i];
+                if(value<min){
+                    min=value;
             }
         }
-        return SortArray[array_length-1];
+        return min;
     }
     public static void main(String[] args){
 
