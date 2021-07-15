@@ -26,6 +26,5 @@ public class Arr_list_to_array {
         Integer[] myIntArray=new Integer[A.getArray1().size()];
         myIntArray=A.getArray1().toArray(myIntArray);
         System.out.println(Arrays.toString(myIntArray));
-
     }
 }
