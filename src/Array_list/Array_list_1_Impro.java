@@ -84,7 +84,7 @@ public class Array_list_1_Impro {
 
     /**
      * To find if the particular item was in the ArrayListObject
-     * @param searchItem Element we want to search in the list
+     * Element we want to search in the list
      * Method ArrayListObject.contains(searchItem) it will return in the form of boolean
      */
     public void findItem(){
