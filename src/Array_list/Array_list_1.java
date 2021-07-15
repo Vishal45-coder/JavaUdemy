@@ -69,6 +69,9 @@ public class Array_list_1 {
         }
     }
 
+    public int findIndex(String searchItem){
+        return grocerylist.indexOf(searchItem);
+    }
     public static void main(String[] args){
         Array_list_1 Vishal= new Array_list_1();
 
@@ -88,5 +91,7 @@ public class Array_list_1 {
         Vishal.printGroceryList();
 
         Vishal.findItem("Eggs");
+
+        System.out.println("The index of  Eggs is "+Vishal.findIndex("Eggs"));
     }
 }
