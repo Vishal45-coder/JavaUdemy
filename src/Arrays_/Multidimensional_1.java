@@ -39,9 +39,9 @@ public class Multidimensional_1 {
     public static void main(String[] args){
 
         Multidimensional_1 MultiArray=new Multidimensional_1();
+        MultiArray.valuesRowsColoumns();
         MultiArray.valuesMultidimensionalarray();
         MultiArray.printMultidimendionalArray();
-        MultiArray.valuesRowsColoumns();
     }
     
 }
