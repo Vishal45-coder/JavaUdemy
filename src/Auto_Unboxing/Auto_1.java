@@ -67,6 +67,7 @@ public class Auto_1 {
 
         //refer to the method @addIntegervalues()
         int myint=myIntvalue; //At compile time myIntvalue.intValue()
+        System.out.println(myint);
 
         Auto_1 Auto_boxing=new Auto_1();
 
