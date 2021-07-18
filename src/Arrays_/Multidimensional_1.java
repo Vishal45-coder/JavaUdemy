@@ -8,6 +8,9 @@ public class Multidimensional_1 {
 
     Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Gets values for rows and coloumns
+     */
     public void valuesRowsColoumns(){
         System.out.println("Enter number of rows");    
         i=scanner.nextInt();
@@ -17,7 +20,9 @@ public class Multidimensional_1 {
         scanner.nextLine();
         intmultidimensionarray= new int[i][j];
     }
- 
+    /**
+     * Gets the values for Multidimensional array
+     */
     public void valuesMultidimensionalarray(){
         for (int i1 = 0; i1 <i;i1++){
             for (int j1 = 0;j1<j;j1++){
@@ -28,6 +33,9 @@ public class Multidimensional_1 {
             System.out.println();
         }
     } 
+    /**
+     * Prints the values for Multidimensional array
+     */
     public void printMultidimendionalArray(){
         for (int i1 = 0; i1 <i;i1++){
             for (int j1 = 0;j1<j;j1++){
