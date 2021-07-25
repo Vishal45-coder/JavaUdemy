@@ -10,22 +10,22 @@ public class Demo {
         LinkedList<String> placesToVisit = new LinkedList<String>();
         return placesToVisit;
     }
-    private void AddingElement(LinkedList<String> placesToVisit){
-        placesToVisit.add("Sydney");
-        placesToVisit.add("Melbourne");
-        placesToVisit.add("Brisbane");
-        placesToVisit.add("Perth");
-        placesToVisit.add("Canberra");
-        placesToVisit.add("Adelaide");
-        placesToVisit.add("Darwin");
+    private void AddingElement(LinkedList<String> VisitPlaces){
+        VisitPlaces.add("Sydney");
+        VisitPlaces.add("Melbourne");
+        VisitPlaces.add("Brisbane");
+        VisitPlaces.add("Perth");
+        VisitPlaces.add("Canberra");
+        VisitPlaces.add("Adelaide");
+        VisitPlaces.add("Darwin");
     }
 
-    private void InsertingElement(LinkedList<String> placesToVisit){
-        placesToVisit.add(1,"Alice Springs");
+    private void InsertingElement(LinkedList<String> VisitPlaces){
+        VisitPlaces.add(1,"Alice Springs");
     }
 
-    private void removingElement(LinkedList<String> placesToVisit){
-        placesToVisit.remove(3);
+    private void removingElement(LinkedList<String> Visitplaces){
+        Visitplaces.remove(3);
     }
 
     //We have used Iterator class to print Elements
