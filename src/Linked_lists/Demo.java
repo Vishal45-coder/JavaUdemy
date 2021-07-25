@@ -28,10 +28,11 @@ public class Demo {
         placesToVisit.remove(3);
     }
 
+    //We have used Iterator class to print Elements
     private void printList(LinkedList<String> placesList){
-        Iterator<String> i=placesList.iterator();
-        while (i.hasNext()){
-            System.out.println("Now visiting "+i.next());
+        Iterator<String> i=placesList.iterator(); //To create an iterator object
+        while (i.hasNext()){ //To check there is an element in the object  iterator
+            System.out.println("Now visiting "+i.next()); //to print the element in the object iterator
         }
         System.out.println();
     }
