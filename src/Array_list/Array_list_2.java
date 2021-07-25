@@ -1,6 +1,7 @@
 package Array_list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Array_list_2 {
    ArrayList<Integer> Array1=new ArrayList<Integer>();
@@ -20,6 +21,16 @@ public class Array_list_2 {
     }
     public void printRealArray1(){
         System.out.println("Real array1 = "+Array1);
+    }
+
+    /**
+     * printing with Iterator class
+     */
+    public void printwitIterator(){
+        Iterator<Integer> it=Array1.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
     }
 
     public static void main(String[] args) {
@@ -43,5 +54,7 @@ public class Array_list_2 {
         A.printRealArray1();
         System.out.println("Copied array = "+CopyArray1);
         System.out.println("Copied Array2 = "+CopyArray2);
+
+        A.printwitIterator();
     }
 }
