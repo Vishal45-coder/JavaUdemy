@@ -16,6 +16,7 @@ public class Linked_list_over_Array_list {
      * Here we are inserting the element at index position1.
      * So,all the elements must be moved down to insert the element.
      * In this list it was not a problem. But when there are thousands of elements it will become a problem
+     * So here Linked Lists comes into play.
      */
     public void InsertingElement(){
         IntegerList.add(1,2);
