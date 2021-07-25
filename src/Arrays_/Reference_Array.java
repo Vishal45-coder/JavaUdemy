@@ -2,7 +2,7 @@ package Arrays_;
 
 import java.util.Arrays;
 
-public class Array_2 {
+public class Reference_Array {
 
     public void Reference_variable(){
         /**
@@ -53,7 +53,7 @@ public class Array_2 {
 
     }
     public static void main(String[] args){
-        Array_2 A=new Array_2();
+        Reference_Array A=new Reference_Array();
 
         A.Reference_variable();
         A.Reference_Array();
