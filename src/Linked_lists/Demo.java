@@ -24,6 +24,10 @@ public class Demo {
         placesToVisit.add(1,"Alice Springs");
     }
 
+    private void removingElement(LinkedList<String> placesToVisit){
+        placesToVisit.remove(3);
+    }
+
     private void printList(LinkedList<String> placesList){
         Iterator<String> i=placesList.iterator();
         while (i.hasNext()){
@@ -39,6 +43,9 @@ public class Demo {
         List1.printList(places);
 
         List1.InsertingElement(places);
+        List1.printList(places);
+
+        List1.removingElement(places);
         List1.printList(places);
 
     }
