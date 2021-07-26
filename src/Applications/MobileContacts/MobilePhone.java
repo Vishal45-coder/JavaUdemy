@@ -37,6 +37,7 @@ public class MobilePhone {
         }
         return null;
     }
+
     public Contact queryContact(String name){
         int position=findContact(name);
         if(position>=0){
@@ -44,6 +45,7 @@ public class MobilePhone {
         }
         return null;
     }
+
     public boolean removeContact(Contact contact){
         int foundposition=findContact(contact);
         if(foundposition<0){
@@ -54,6 +56,7 @@ public class MobilePhone {
         System.out.println(contact.getName()+" was deleted");
         return true;
     }
+
     private int findContact(Contact contact){
         return this.myContacts.indexOf(contact);
     }
@@ -70,6 +73,7 @@ public class MobilePhone {
 
     public void printContacts(){
         System.out.println("Contacts List");
+        System.out.println(myContacts);
         for(int i=0;i<myContacts.size();i++){
             System.out.println("Name : "+this.myContacts.get(i).getName()+" PhoneNumber : "+this.myContacts.get(i).getPhoneNumber());
         }

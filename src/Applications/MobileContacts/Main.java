@@ -18,7 +18,7 @@ public class Main {
 
             switch(action){
                 case 0:
-                    System.out.println("Shutting Dowb");
+                    System.out.println("Shutting Down");
                     quit=true;
                     break;
                 case 1:
