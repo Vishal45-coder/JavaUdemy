@@ -31,7 +31,7 @@ public class Auto_1 {
     /**
      * Here we will get int values to display as values
      * We can convert Integer objects to int values by using method Integerobject.intValue() using Unboxing
-     * Unboxing:- Connecting Objects to primitive types
+     * Unboxing:- Converting Objects to primitive types
      */
     public void printintvaluest(){
         System.out.println("Printing int values");
